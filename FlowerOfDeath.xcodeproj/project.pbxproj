@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01257932B14BDDE00E19A84 /* FlowerOfDeathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01257922B14BDDE00E19A84 /* FlowerOfDeathApp.swift */; };
+		D01257952B14BDDE00E19A84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01257942B14BDDE00E19A84 /* ContentView.swift */; };
+		D01257972B14BDDF00E19A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01257962B14BDDF00E19A84 /* Assets.xcassets */; };
+		D012579A2B14BDDF00E19A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01257992B14BDDF00E19A84 /* Preview Assets.xcassets */; };
+		D01257A52B14BDE000E19A84 /* FlowerOfDeathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01257A42B14BDE000E19A84 /* FlowerOfDeathTests.swift */; };
+		D01257AF2B14BDE000E19A84 /* FlowerOfDeathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01257AE2B14BDE000E19A84 /* FlowerOfDeathUITests.swift */; };
+		D01257B12B14BDE000E19A84 /* FlowerOfDeathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01257B02B14BDE000E19A84 /* FlowerOfDeathUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01257A12B14BDE000E19A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01257872B14BDDE00E19A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D012578E2B14BDDE00E19A84;
+			remoteInfo = FlowerOfDeath;
+		};
+		D01257AB2B14BDE000E19A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01257872B14BDDE00E19A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D012578E2B14BDDE00E19A84;
+			remoteInfo = FlowerOfDeath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D012578F2B14BDDE00E19A84 /* FlowerOfDeath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerOfDeath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01257922B14BDDE00E19A84 /* FlowerOfDeathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerOfDeathApp.swift; sourceTree = "<group>"; };
+		D01257942B14BDDE00E19A84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D01257962B14BDDF00E19A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01257992B14BDDF00E19A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D012579B2B14BDDF00E19A84 /* FlowerOfDeath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowerOfDeath.entitlements; sourceTree = "<group>"; };
+		D01257A02B14BDE000E19A84 /* FlowerOfDeathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerOfDeathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01257A42B14BDE000E19A84 /* FlowerOfDeathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerOfDeathTests.swift; sourceTree = "<group>"; };
+		D01257AA2B14BDE000E19A84 /* FlowerOfDeathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerOfDeathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01257AE2B14BDE000E19A84 /* FlowerOfDeathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerOfDeathUITests.swift; sourceTree = "<group>"; };
+		D01257B02B14BDE000E19A84 /* FlowerOfDeathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerOfDeathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D012578C2B14BDDE00E19A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012579D2B14BDE000E19A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01257A72B14BDE000E19A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01257862B14BDDE00E19A84 = {
+			isa = PBXGroup;
+			children = (
+				D01257912B14BDDE00E19A84 /* FlowerOfDeath */,
+				D01257A32B14BDE000E19A84 /* FlowerOfDeathTests */,
+				D01257AD2B14BDE000E19A84 /* FlowerOfDeathUITests */,
+				D01257902B14BDDE00E19A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01257902B14BDDE00E19A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D012578F2B14BDDE00E19A84 /* FlowerOfDeath.app */,
+				D01257A02B14BDE000E19A84 /* FlowerOfDeathTests.xctest */,
+				D01257AA2B14BDE000E19A84 /* FlowerOfDeathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01257912B14BDDE00E19A84 /* FlowerOfDeath */ = {
+			isa = PBXGroup;
+			children = (
+				D01257922B14BDDE00E19A84 /* FlowerOfDeathApp.swift */,
+				D01257942B14BDDE00E19A84 /* ContentView.swift */,
+				D01257962B14BDDF00E19A84 /* Assets.xcassets */,
+				D012579B2B14BDDF00E19A84 /* FlowerOfDeath.entitlements */,
+				D01257982B14BDDF00E19A84 /* Preview Content */,
+			);
+			path = FlowerOfDeath;
+			sourceTree = "<group>";
+		};
+		D01257982B14BDDF00E19A84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D01257992B14BDDF00E19A84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D01257A32B14BDE000E19A84 /* FlowerOfDeathTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01257A42B14BDE000E19A84 /* FlowerOfDeathTests.swift */,
+			);
+			path = FlowerOfDeathTests;
+			sourceTree = "<group>";
+		};
+		D01257AD2B14BDE000E19A84 /* FlowerOfDeathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D01257AE2B14BDE000E19A84 /* FlowerOfDeathUITests.swift */,
+				D01257B02B14BDE000E19A84 /* FlowerOfDeathUITestsLaunchTests.swift */,
+			);
+			path = FlowerOfDeathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D012578E2B14BDDE00E19A84 /* FlowerOfDeath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01257B42B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeath" */;
+			buildPhases = (
+				D012578B2B14BDDE00E19A84 /* Sources */,
+				D012578C2B14BDDE00E19A84 /* Frameworks */,
+				D012578D2B14BDDE00E19A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerOfDeath;
+			productName = FlowerOfDeath;
+			productReference = D012578F2B14BDDE00E19A84 /* FlowerOfDeath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D012579F2B14BDE000E19A84 /* FlowerOfDeathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01257B72B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeathTests" */;
+			buildPhases = (
+				D012579C2B14BDE000E19A84 /* Sources */,
+				D012579D2B14BDE000E19A84 /* Frameworks */,
+				D012579E2B14BDE000E19A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01257A22B14BDE000E19A84 /* PBXTargetDependency */,
+			);
+			name = FlowerOfDeathTests;
+			productName = FlowerOfDeathTests;
+			productReference = D01257A02B14BDE000E19A84 /* FlowerOfDeathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D01257A92B14BDE000E19A84 /* FlowerOfDeathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01257BA2B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeathUITests" */;
+			buildPhases = (
+				D01257A62B14BDE000E19A84 /* Sources */,
+				D01257A72B14BDE000E19A84 /* Frameworks */,
+				D01257A82B14BDE000E19A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01257AC2B14BDE000E19A84 /* PBXTargetDependency */,
+			);
+			name = FlowerOfDeathUITests;
+			productName = FlowerOfDeathUITests;
+			productReference = D01257AA2B14BDE000E19A84 /* FlowerOfDeathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01257872B14BDDE00E19A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D012578E2B14BDDE00E19A84 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D012579F2B14BDE000E19A84 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D012578E2B14BDDE00E19A84;
+					};
+					D01257A92B14BDE000E19A84 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D012578E2B14BDDE00E19A84;
+					};
+				};
+			};
+			buildConfigurationList = D012578A2B14BDDE00E19A84 /* Build configuration list for PBXProject "FlowerOfDeath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01257862B14BDDE00E19A84;
+			productRefGroup = D01257902B14BDDE00E19A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D012578E2B14BDDE00E19A84 /* FlowerOfDeath */,
+				D012579F2B14BDE000E19A84 /* FlowerOfDeathTests */,
+				D01257A92B14BDE000E19A84 /* FlowerOfDeathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D012578D2B14BDDE00E19A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D012579A2B14BDDF00E19A84 /* Preview Assets.xcassets in Resources */,
+				D01257972B14BDDF00E19A84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012579E2B14BDE000E19A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01257A82B14BDE000E19A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D012578B2B14BDDE00E19A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01257952B14BDDE00E19A84 /* ContentView.swift in Sources */,
+				D01257932B14BDDE00E19A84 /* FlowerOfDeathApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D012579C2B14BDE000E19A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01257A52B14BDE000E19A84 /* FlowerOfDeathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01257A62B14BDE000E19A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01257AF2B14BDE000E19A84 /* FlowerOfDeathUITests.swift in Sources */,
+				D01257B12B14BDE000E19A84 /* FlowerOfDeathUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01257A22B14BDE000E19A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D012578E2B14BDDE00E19A84 /* FlowerOfDeath */;
+			targetProxy = D01257A12B14BDE000E19A84 /* PBXContainerItemProxy */;
+		};
+		D01257AC2B14BDE000E19A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D012578E2B14BDDE00E19A84 /* FlowerOfDeath */;
+			targetProxy = D01257AB2B14BDE000E19A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D01257B22B14BDE000E19A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D01257B32B14BDE000E19A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D01257B52B14BDE000E19A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlowerOfDeath/FlowerOfDeath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowerOfDeath/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D01257B62B14BDE000E19A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlowerOfDeath/FlowerOfDeath.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowerOfDeath/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D01257B82B14BDE000E19A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerOfDeath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowerOfDeath";
+			};
+			name = Debug;
+		};
+		D01257B92B14BDE000E19A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerOfDeath.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowerOfDeath";
+			};
+			name = Release;
+		};
+		D01257BB2B14BDE000E19A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FlowerOfDeath;
+			};
+			name = Debug;
+		};
+		D01257BC2B14BDE000E19A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.FlowerOfDeathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FlowerOfDeath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D012578A2B14BDDE00E19A84 /* Build configuration list for PBXProject "FlowerOfDeath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01257B22B14BDE000E19A84 /* Debug */,
+				D01257B32B14BDE000E19A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01257B42B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01257B52B14BDE000E19A84 /* Debug */,
+				D01257B62B14BDE000E19A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01257B72B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01257B82B14BDE000E19A84 /* Debug */,
+				D01257B92B14BDE000E19A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01257BA2B14BDE000E19A84 /* Build configuration list for PBXNativeTarget "FlowerOfDeathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01257BB2B14BDE000E19A84 /* Debug */,
+				D01257BC2B14BDE000E19A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01257872B14BDDE00E19A84 /* Project object */;
+}
